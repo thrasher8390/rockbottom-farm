@@ -6,6 +6,8 @@
     <title>Volunteer at Rockbottom Farm</title>
     <!-- Load Tailwind CSS from CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Alpine.js for mobile menu interactivity -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.10/dist/cdn.min.js"></script>
     <!-- Set up custom configuration for Inter font and colors -->
     <script>
         tailwind.config = {
@@ -128,8 +130,31 @@
 
     <!-- Footer (Copied from index.html for consistency) -->
     <footer class="bg-gray-800 text-gray-300 py-10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p class="text-sm">&copy; 2025 Rockbottom Farm. All Rights Reserved.</p>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Mission Summary -->
+                <div>
+                    <h5 class="text-lg font-bold text-white mb-3">Our Core</h5>
+                    <p class="text-sm">Driven by Bob's vision, we leverage local agriculture to fight hunger and provide essential mental health support for our community's first responders.</p>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h5 class="text-lg font-bold text-white mb-3">Contact Us</h5>
+                    <p class="text-sm">Rockbottom Farm</p>
+                    <p class="text-sm">Stow, MA</p>
+                    <p class="text-sm mt-2">Email: <a href="mailto:contact@rockbottomfarm.org" class="text-amber-300 hover:underline">contact@rockbottomfarm.org</a></p>
+                </div>
+
+                <!-- Legal/Social -->
+                <div>
+                    <h5 class="text-lg font-bold text-white mb-3">Connect</h5>
+                    <p class="text-sm">Follow our journey and see the impact of your support.</p>
+                </div>
+            </div>
+            <div class="mt-8 pt-6 border-t border-gray-700 text-sm text-center">
+                &copy; 2025 Rockbottom Farm. All Rights Reserved. | Operated in conjunction with our sister farm in Westford, MA.
+            </div>
         </div>
     </footer>
 

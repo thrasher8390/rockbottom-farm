@@ -6,6 +6,8 @@
     <title>Rockbottom Farm | Cultivating Compassion</title>
     <!-- Load Tailwind CSS from CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Alpine.js for mobile menu interactivity -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.10/dist/cdn.min.js"></script>
     <!-- Set up custom configuration for Inter font and colors -->
     <script>
         tailwind.config = {
@@ -146,7 +148,7 @@
             <h3 class="text-4xl font-extrabold text-farm-green text-center mb-12">
                 Life on the Farm
             </h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
                 <!-- Placeholder Image 1: Farm Scenery -->
                 <div class="aspect-video rounded-xl shadow-lg overflow-hidden bg-gray-200">
                     <img src="resource/image/wide_thefarm.jpg" alt="A wide scenic view of Rockbottom Farm" class="w-full h-full object-cover">
