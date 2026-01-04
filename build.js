@@ -299,14 +299,20 @@ ${getHead(pageContent)}
 function build() {
     console.log('Starting build...');
 
+    const outputDir = 'website';
+    if (!fs.existsSync(outputDir)) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
+
     const pages = Object.keys(content.pages);
 
     pages.forEach(pageName => {
         const pageContent = content.pages[pageName];
         const fileName = pageName === 'home' ? 'index.html' : `${pageName}.html`;
+        const outputPath = path.join(outputDir, fileName);
         const html = buildPage(pageName, pageContent);
-        fs.writeFileSync(fileName, html);
-        console.log(`Successfully built ${fileName}`);
+        fs.writeFileSync(outputPath, html);
+        console.log(`Successfully built ${fileName} to ${outputPath}`);
     });
 
     console.log('Build finished successfully!');

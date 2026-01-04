@@ -4,7 +4,7 @@ This is a simple, responsive website for Rockbottom Farm, a non-profit organizat
 
 ## Sites
 
-* Bob made a site with his partner Mike <https://sites.google.com/sellsnhre.com/rockbottomfarm/home>
+* Bob made a site with his partner Mike <https://sites.google.com/sellsnhre.com/rockbottomfarm/home> or <www.farmrmg.org>
 * The url for this repositories website is <https://thrasher8390.github.io/rockbottom-farm/>
 
 ## Technologies Used
@@ -33,3 +33,4 @@ This is a simple, responsive website for Rockbottom Farm, a non-profit organizat
 * **Add a favicon:** Add a favicon to make the site look more professional.
 * **Replace placeholder social media links:** The social media links in the footer are currently placeholders. They should be replaced with actual links to the farm's social media pages.
 * **Configure form submission:** The volunteer sign-up form currently reloads the page on submission. A form submission service like [Formspree](https://formspree.io/) or a serverless function should be used to handle the form submissions.
+* **run otherwebsites under rockbottom shell** so that the experience feels like a single experience rather than jumping between websites. e.g. running <https://onsiteacademy.org/our-military/> from within the farmrmg.com domain.
