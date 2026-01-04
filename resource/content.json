@@ -1,0 +1,189 @@
+
+{
+  "pages": {
+    "home": {
+      "title": "Rockbottom Farm | Cultivating Compassion",
+      "meta": {
+        "description": "Rockbottom Farm in Stowe, MA is a non-profit organization dedicated to cultivating compassion and honoring heroes. We provide food for hungry children and offer a sanctuary for first responders.",
+        "keywords": "rockbottom farm, stowe ma, non-profit, compassion, heroes, food for hungry children, first responders, sanctuary, volunteer, retreats, agriculture, social good, Bob Waskiewicz, Westford MA"
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "title": "Cultivating Compassion. <br class=\"hidden sm:inline\"> Honoring Heroes.",
+          "subtitle": "Stow, MA & Westford, MA",
+          "body": "The land serves a higher purpose: providing food for <strong>100,000+ hungry kids</strong> and offering <strong>sanctuary for first responders.</strong>",
+          "cta": {
+            "text": "Support Our Dual Mission",
+            "link": "#action"
+          }
+        },
+        {
+          "type": "missions",
+          "title": "Our Two Pillars of Service",
+          "cards": [
+            {
+              "title": "Harvest for Hope: Combating Hunger",
+              "body": "We dedicate our yield—grown with care across our Stow and Westford properties—to serve over <strong>100,000 children</strong> facing food insecurity nightly in Massachusetts. This is our direct response to a community crisis, providing consistent, nutritious, locally grown food to those who need it most."
+            },
+            {
+              "title": "The Grounded Hero: First Responder Sanctuary",
+              "body": "The farm provides a vital sanctuary and location for wellness courses and retreats tailored for our first responders. After facing daily trauma, this tranquil setting offers a natural, restorative space for healing, reflection, and building long-term resilience."
+            }
+          ]
+        },
+        {
+          "type": "vision",
+          "title": "Meet Bob Waskiewicz and The Vision",
+          "image": {
+            "src": "",
+            "alt": "Bob Waskiewicz"
+          },
+          "body": [
+            "Rockbottom Farm is driven by <strong>Bob Waskiewicz's</strong> singular vision: that agriculture can be a powerful engine for social good. He recognized that the most vulnerable—children struggling with hunger—and the most courageous—our first responders battling burnout—share a common need for sustenance and care.",
+            "\"Our purpose isn't just to grow crops; it's to cultivate a stronger, more resilient Massachusetts by serving those who protect and those who need protection.\""
+          ]
+        },
+        {
+          "type": "gallery",
+          "title": "Life on the Farm",
+          "images": [
+            {
+              "src": "resource/image/wide_thefarm.jpg",
+              "alt": "A wide scenic view of Rockbottom Farm"
+            },
+            {
+              "src": "resource/image/wide_theview.jpg",
+              "alt": "A beautiful vista from the farm property"
+            }
+          ]
+        },
+        {
+          "type": "cta_section",
+          "title": "Join Our Mission",
+          "body": "Your support is critical. Whether through donations, time, or participation, you help us nourish the vulnerable and heal the heroes.",
+          "ctas": [
+            {
+              "text": "Donate Now",
+              "link": "https://www.gbfb.org/donate/",
+              "external": true
+            },
+            {
+              "text": "Volunteer Your Time",
+              "link": "volunteer.html"
+            },
+            {
+              "text": "Retreat & Course Info",
+              "link": "retreats.html"
+            }
+          ]
+        }
+      ]
+    },
+    "retreats": {
+      "title": "First Responder Retreats | Rockbottom Farm",
+      "meta": {
+        "description": "The Grounded Hero Program at Rockbottom Farm in Stowe, MA offers a sanctuary for first responders to heal, reflect, and build resilience. Learn more about our confidential wellness retreats.",
+        "keywords": "rockbottom farm, stowe ma, first responders, sanctuary, retreats, wellness, resilience, peer support, mental health, Bob Waskiewicz, Westford MA"
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "title": "The Grounded Hero Program",
+          "body": "A sanctuary for first responders to heal, reflect, and build resilience. This is a space to decompress from the daily trauma of the front lines and reconnect in a natural, restorative environment."
+        },
+        {
+            "type": "program_details",
+            "title": "A Proactive Approach to Mental Wellness",
+            "body": [
+                "The Grounded Hero program is not therapy; it's a proactive, peer-supported wellness curriculum designed to equip you with tools for long-term resilience. Our courses focus on mitigating the effects of burnout and post-traumatic stress in a confidential and supportive setting.",
+                "We provide a tranquil space where you can disconnect from the stress of the job and reconnect with yourself and your peers."
+            ],
+            "features": [
+                {
+                    "title": "Wellness Workshops",
+                    "body": "Led by experienced facilitators, our workshops cover topics like stress management, mindfulness, and healthy coping mechanisms."
+                },
+                {
+                    "title": "Peer Support & Connection",
+                    "body": "Connect with fellow first responders who understand the unique challenges of the job. Share experiences and build a network of support."
+                },
+                {
+                    "title": "Restorative Activities",
+                    "body": "Engage in low-stress activities like hiking, fishing, or simply enjoying the peace and quiet of the farm."
+                }
+            ]
+        },
+        {
+            "type": "inquiry_form",
+            "title": "Request More Information",
+            "body": "All inquiries are strictly confidential. Please reach out to learn more about upcoming course dates and availability.",
+            "cta": {
+                "text": "Inquire Confidentially via Email",
+                "link": "mailto:retreats@rockbottomfarm.org?subject=Confidential Inquiry: Grounded Hero Program"
+            }
+        }
+      ]
+    },
+    "volunteer": {
+        "title": "Volunteer at Rockbottom Farm",
+        "meta": {
+            "description": "Volunteer at Rockbottom Farm in Stowe, MA and help us grow hope. Lend a hand with farming, distribution, or events and make a difference in your community.",
+            "keywords": "rockbottom farm, stowe ma, volunteer, non-profit, community, farming, harvesting, food security, hungry children, first responders, events, Bob Waskiewicz, Westford MA"
+        },
+        "sections": [
+            {
+                "type": "hero",
+                "title": "Lend a Hand, Grow Hope",
+                "body": "Our volunteers are the lifeblood of our mission. By giving your time, you directly help us harvest food for hungry children and maintain a place of peace for our community's heroes. No farming experience is necessary—just a willingness to help."
+            },
+            {
+                "type": "opportunities",
+                "title": "How You Can Help",
+                "cards": [
+                    {
+                        "title": "Farm Hands",
+                        "body": "Get your hands dirty! Help with planting, weeding, and harvesting our crops. This is where the magic happens, and every hand makes a difference."
+                    },
+                    {
+                        "title": "Distribution Support",
+                        "body": "Assist in sorting, packing, and preparing our fresh produce for delivery to local food banks and community partners."
+                    },
+                    {
+                        "title": "Event & Program Crew",
+                        "body": "Support our first responder retreats and community events. Help with setup, hospitality, and ensuring our guests feel welcome."
+                    }
+                ]
+            },
+            {
+                "type": "signup_form",
+                "title": "Ready to Join Us?",
+                "form_action": "https://formspree.io/f/your@email.com",
+                "fields": [
+                    {
+                        "name": "name",
+                        "label": "Full Name",
+                        "type": "text",
+                        "required": true
+                    },
+                    {
+                        "name": "email",
+                        "label": "Email Address",
+                        "type": "email",
+                        "required": true
+                    },
+                    {
+                        "name": "interest",
+                        "label": "Area of Interest (Optional)",
+                        "type": "textarea",
+                        "placeholder": "Let us know if you have a specific interest or any questions!"
+                    }
+                ],
+                "submit_button": {
+                    "text": "Count Me In!"
+                }
+            }
+        ]
+    }
+  }
+}
